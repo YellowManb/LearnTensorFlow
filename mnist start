@@ -1,3 +1,0 @@
-x = tf.placeholder("float", [None, 784]) #plcaholder为占位符,这里的None表示此张量的第一个维度可以是任何长度的
-W = tf.Variable(tf.zeros([784,10]))
-b = tf.Variable(tf.zeros([10])) #Varible表示一个可以修改的变量
